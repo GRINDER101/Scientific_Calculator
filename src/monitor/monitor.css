@@ -1,0 +1,49 @@
+.monitor {
+    height: 30%;
+    border-bottom: 2px solid black;
+    background-color: aliceblue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    overflow: scroll;
+}
+
+.mode {
+    color: rgb(54, 57, 64);
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+}
+
+.intro {
+    margin-top: 17px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.expression_and_result {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+.expression_and_result h2 {
+    width: 100%;
+    height: 20vh;
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 27px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    overflow-y: scroll;
+}
+
+.expression_and_result h4 {
+    margin-top: 0;
+    margin-right: 10px;
+    font-size: 32px;
+}
